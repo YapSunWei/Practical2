@@ -8,20 +8,25 @@ import android.widget.TextView
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
+    lateinit var diceImg: ImageView
+    lateinit var numberText: TextView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        diceImg = findViewById(R.id.diceImg)
+        numberText = findViewById(R.id.numberText)
 
-        val button: Button = findViewById(R.id.rollButton)
-        button.setOnClickListener{ rollDice()}
+        //val button: Button = findViewById(R.id.rollButton)
+        val button: Button = findViewById<Button>(R.id.rollButton)
+        button.setOnClickListener { rollDice() }
     }
 
     private fun rollDice() {
         val randomNumb = (1..6).random()
-        val numberText: TextView = findViewById(R.id.numberText)
-        val diceImg: ImageView = findViewById(R.id.diceImg)
+        //      val numberText: TextView = findViewById(R.id.numberText)
+        //      val diceImg: ImageView = findViewById(R.id.diceImg)
         numberText.text = randomNumb.toString()
-        val imgSrc = when (randomNumb){
+        val imgSrc = when (randomNumb) {
             1 -> R.drawable.dice_1
             2 -> R.drawable.dice_2
             3 -> R.drawable.dice_3

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Style">
+        <item name="android:layout_marginStart">@dimen/layoutMargin</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:includeFontPadding">true</item>
+        <item name="android:paddingTop">@dimen/smallPadding</item>
+        <item name="android:paddingBottom">@dimen/smallPadding</item>
+    </style>
+</resources>
