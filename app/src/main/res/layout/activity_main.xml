@@ -86,10 +86,10 @@
 
             <TextView
                 android:id="@+id/textView"
-                style="@style/Style"
                 android:layout_width="match_parent"
-                android:layout_height="179dp"
-                android:text="@string/rulesText" />
+                android:layout_height="wrap_content"
+                android:text="@string/rulesText"
+                style="@style/Style"/>
 
 
         </LinearLayout>
