@@ -1,9 +1,21 @@
 <resources>
     <string name="app_name">Practical2</string>
     <string name="rollDice">Roll</string>
-    <string name="rollDiceRules">To pass is to roll a 7 or 11 on the come out roll.
-                                 To crap is to roll a 2, 3, or 12 on the come out roll.
-                                 The point is any value between 4 and 10 rolled on the come out.
-                                 To seven out is to roll a seven before rolling the point.</string>
-    <string name="playerName">Enter Your Name</string>
+    <string name="roleDiceRules">To pass is to roll a 7 or 11 on the come out roll
+                                    \n\nTo crap is to roll a 2, 3, or 12 on the come out roll
+                                    \n\nThe point is any value between 4 and 10 rolled on the come out
+                                    \n\nTo seven out is to roll a seven before rolling the point</string>
+    <string name="playerName"></string>
+    <string name="rulesText">There is no ruling on how to choose the shooter. Whoever arrives first is allowed to shoot. Players can rotate the position, take turns or select a volunteer.
+                             \n\nThe shooter will select the betting amount they want to wager and choose between two betting options: Pass or Don’t Pass.
+                            \n\nBefore the shooter rolls a seven, they will throw the target number if they opted for the Pass bet.
+                            \n\nIt’s up to the shooter to offer odds during the game.
+                            \n\nThis method will continue after the players have placed their bets on the options that are opposite to the shooter’s bet.
+                            \n\nThe shooter can reduce the betting amount if the wagers can’t cover the initial bet that they selected.
+                            \n\nIn Street Craps, players can also make side bets.
+                            \n\nAfter the shooter throws the dice, all bet placing must stop.
+                            \n\nAll Passes get a win if the result of the dice roll is seven or eleven.
+                            \n\nDon’t Pass bets will win if the results are two, three, or twenty.</string>
+    <string name="editPlayername"></string>
+    <string name="updatePlayerNameTxt">Update</string>
 </resources>

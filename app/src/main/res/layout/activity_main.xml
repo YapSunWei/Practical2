@@ -9,22 +9,43 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/editPlayerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:hint="Type your name"
+            android:text="@string/editPlayername"/>
+        <Button
+            android:id="@+id/updatePlayerNameBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/updatePlayerNameTxt"/>
+    </LinearLayout>
+
     <TextView
         android:id="@+id/playerName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:fontFamily="@font/roboto"
-        android:text="@string/playerName"
-        style="@style/Style"/>
+        android:text="@string/playerName" />
 
     <TextView
         android:id="@+id/numberText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         android:layout_gravity="center_horizontal"
-        android:text="Hello"
+        android:text="HELLO BIJES!"
         style="@style/Style" />
+
+
+
 
 
     <ImageView
@@ -45,6 +66,38 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="Roll" />
+
+    <TextView
+        android:id="@+id/rulesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Roll Your Dice"
+        style="@style/Style" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/Style"
+                android:layout_width="match_parent"
+                android:layout_height="179dp"
+                android:text="@string/rulesText" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
 
 
 </LinearLayout>
